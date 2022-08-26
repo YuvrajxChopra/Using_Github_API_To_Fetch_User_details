@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web API</title>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <h3>API Sample</h3>
+            <input type="text" placeholder="Github Username" id="inputusername" /> <br />
+            <input type="submit" value="Pull User Data" id="submit-btn" />
+        </form>
+
+        <div class="user">
+            <h4 class="fullname" id="fullname"> Name </h4>
+            <h4 class="username" id="username"> (@username) </h4>
+        </div>
+        <div class="userdata">
+            <div class="userphoto" id="userphoto">
+                <img id="userimg"></img>
+            </div>
+            <div class="otherdata">
+                <label id="follwers">Follower: 0</label>
+                <label id="following">Following: 0</label><br/>
+                <label id="pub-repos">Repo: 0</label>
+            </div>
+
+        </div>
+        <div class="repolist">
+            <h2>Repo List</h2>
+            <div class="repogohere" id="repogohere">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
