@@ -107,3 +107,7 @@ img{
     border-radius: 5px;
     min-width: 50px;
 }
+
+.fullname,.repolist, #follwers, #following, #pub-repos, .username, #userphoto{
+    display: none;
+}
